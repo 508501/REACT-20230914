@@ -1,0 +1,11 @@
+.btnThree {
+    background-color: #e6ccab;
+    color: #2c1a09;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+}
+.disabled {
+    background-color: #547c17;
+    color: white;
+}

@@ -1,0 +1,15 @@
+.par {
+    background-image: url(photo.jpg);
+    background-size: cover;
+    height: 250px;    
+}
+.food {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+.delivery {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}

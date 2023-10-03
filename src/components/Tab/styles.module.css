@@ -1,0 +1,14 @@
+.btnTwo {
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    color: #2c1a09;
+    background-color: #e6ccab;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+}
+.disabled {
+    background-color: #547c17;
+    color: white;
+}
