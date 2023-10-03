@@ -1,7 +1,8 @@
 .nameRestaurant {
     text-align: center;
     font-size: 40px;
-    color: #547c17;    
+    color: #547c17; 
+    font-family: 'Raleway', sans-serif;  
 }
 .nameMenu {
     color: #74371d;
