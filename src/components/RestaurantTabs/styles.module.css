@@ -1,10 +1,7 @@
-.btn {
+.restaurantTab {
     margin: 10px;
     padding: 10px;
     margin-top: 10px;
     text-align: center;
     }
-.disabled {
-    background-color: #547c17; 
-    color: white;
-}
+

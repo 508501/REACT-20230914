@@ -5,6 +5,7 @@ import { Restaurant } from "../../components/Restaurant/component";
 import { Header } from "../../components/Header/component";
 
 
+
 export const MainPage = () => {
 const [activeRestaurantIndex, setActiveRestaurantIndex] = useState (0);
 
@@ -14,6 +15,7 @@ return (
     <Header />     
     <RestaurantTabs    
     restaurants= {restaurants}
+    activeTabIndex = {activeRestaurantIndex}
     onTabSelect = {setActiveRestaurantIndex}
     />
     <Restaurant restaurant = {restaurants[activeRestaurantIndex]}

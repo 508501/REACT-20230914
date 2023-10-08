@@ -1,18 +1,15 @@
-import classNames from "classnames";
+
 import styles from "./styles.module.css";
 
-export const Tab = ({title, onClick, disabled}) => {
+export const Tab = ({title, onClick, disabled, isActive }) => {
 
-    return  (
-    <button 
-    className={classNames (styles.btnTwo, {
-        [styles.disabled]: disabled,
-    }
-        )}
+    return (
+    <button className ={`${styles.button} ${disabled ? styles.disabled : ""}`} 
     onClick={onClick} 
     disabled={disabled}
-    >
-        {title} 
-        </button>
+    > 
+    {title} 
+    </button>
     );
 };
+

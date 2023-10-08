@@ -1,4 +1,4 @@
-.btnTwo {
+.button {
     padding: 10px;
     margin: 10px;
     font-size: 25px;
@@ -8,11 +8,14 @@
     border-radius: 10px;
     width: 250px;
 }
-.btnTwo:hover {
+.button:hover {
     background-color: #2c1a09;
     color: white;
 }
-.disabled {
+.isActive {
     background-color: #547c17;
     color: white;
+}
+.disabled {
+    background-color: gray;
 }
