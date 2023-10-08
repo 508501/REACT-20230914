@@ -1,5 +1,8 @@
 import { Menu } from "../Menu/component"
+import { ReviewForm } from "../ReviewForm/component";
 import { Reviews } from "../Reviews/component"
+
+
 
 import styles from "./styles.module.css";
 
@@ -11,6 +14,9 @@ export const Restaurant = ({ restaurant }) => {
             <Menu dishes={restaurant.menu} />
             <h3 className={styles.reviews}>Reviews</h3>
             <Reviews reviews={restaurant.reviews} />
+            <br /><br />
+            <ReviewForm />
+            <br /><br />
         </div>
     );
 };

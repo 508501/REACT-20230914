@@ -1,9 +1,12 @@
 import ReactDOM from 'react-dom/client'
 import { MainPage } from './pages/Main/component';
 import "./index.css";
+import { ThemeProvider } from './contexts/Theme';
 
 const rootElement = document.getElementById ("root");
 const root = ReactDOM.createRoot(rootElement);
-root.render(
+root.render( 
+  <ThemeProvider>
   <MainPage />
+  </ThemeProvider>
       );
