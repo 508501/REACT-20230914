@@ -1,0 +1,30 @@
+.ReviewForm {
+    color: #547c17;
+    font-style: italic;
+    margin: 10px;
+    border-top: #547c17 1px solid;
+}
+label {
+    margin: 10px;
+    padding: 10px;
+}
+.inputReview {
+    width: 350px;
+    height: 200px;    
+}
+input, textarea {
+    color: #547c17;
+}
+.button {
+    background-color: #547c17;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: white;
+}
+.button:hover {
+    background-color: white;
+    color: #547c17;
+    border-color: #547c17;
+}
