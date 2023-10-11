@@ -12,10 +12,6 @@
     background-color: #2c1a09;
     color: white;
 }
-.isActive {
-    background-color: #547c17;
-    color: white;
-}
 .disabled {
-    background-color: gray;
+    background-color: aqua;
 }

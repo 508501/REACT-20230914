@@ -45,7 +45,7 @@ export const ReviewForm = () => {
 
         <div>
         <label>Our Review</label>
-        <input className={styles.inputReview} value={formValue.review}
+        <textarea className={styles.inputReview} value={formValue.review}
             onChange={(event) => {
             dispatch({type: 'setReview', payload: event.target.value});
         }}

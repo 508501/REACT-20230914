@@ -9,10 +9,10 @@ label {
     padding: 10px;
 }
 .inputReview {
-    width: 400px;
+    width: 350px;
     height: 200px;    
 }
-input {
+input, textarea {
     color: #547c17;
 }
 .button {
